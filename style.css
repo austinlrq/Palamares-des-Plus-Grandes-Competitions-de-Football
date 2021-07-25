@@ -1,0 +1,177 @@
+@font-face{
+	font-family: "police/MADE\ Tommy\ Soft\ Bold\ PERSONAL\ USE.otf";
+	src: url("police/MADE\ Tommy\ Soft\ Bold\ PERSONAL\ USE.otf");
+}
+
+
+/*pages du tableau*/
+h1
+{
+	
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	text-align: center;
+	background-color: rgba(0, 255, 149, 0.61);
+	
+}
+img {
+	width: 50%;
+	height: 50%;
+}
+table{
+	border-collapse: collapse;
+	background-color: honeydew;
+}	
+td{
+	border: 2px solid black;
+	font-family: "police/MADE\ Tommy\ Soft\ Bold\ PERSONAL\ USE.otf";
+	height: 30px;
+	text-align: center;
+	border-style: inset;
+}
+td:hover{
+	color:red;
+	text-decoration:none;
+}
+#conteneur{
+	display: flex;
+    justify-content: center;
+	align-items: center;
+}
+.tableau{
+	background-image: url(images/fond1.jpg)
+}
+.caracteristique{
+	color: rgba(211, 12, 12, 0.938);
+}
+.lienstableau{
+	font-family: "police/MADE\ Tommy\ Soft\ Bold\ PERSONAL\ USE.otf";
+	color: black;
+	font-size: 25px;
+	background-color: rgba(33, 199, 130, 0.479);
+	border-radius: 7px;
+	padding: 25px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.lienstableau:hover{
+	color:rgb(71, 9, 9);
+	text-decoration:none;
+	padding: 3%;
+	font-size: 30px;
+}
+
+
+/*menu*/
+/*haut du site*/
+nav{
+	background-color: rgba(26, 71, 196, 0.678);
+	border-radius: 9px;
+	padding: 1.5%;
+	text-align: center;
+}
+.liens{
+	font-family: "police/MADE\ Tommy\ Soft\ Bold\ PERSONAL\ USE.otf";
+	color: black;
+	font-size: 120%;
+	background-color: rgba(33, 199, 191, 0.411);
+	border-radius: 7px;
+	padding: 1.1%;
+	margin-left: 4%;
+	margin-right: 4%;
+}
+.liens:hover{
+	color:rgb(71, 9, 9);
+	text-decoration:none;
+}
+/*description site*/
+.description{
+	font-family: "police/MADE\ Tommy\ Soft\ Bold\ PERSONAL\ USE.otf";
+	color: rgb(34, 0, 0);
+	font-size: 85%;
+	background-color: rgba(33, 199, 102, 0.568);
+	border-radius: 7px;
+	padding: 0.2%;
+	padding-left: 4.3%;
+	margin-top: 0.8%;
+	margin-left: 30%;
+	margin-right: 33%;
+}
+p
+{
+	font-family: Verdana;
+	font-style: italic;
+	color: green;
+}
+
+/*slides*/
+.slide{
+	float: left;
+}
+.slides{
+	width: calc(1800px * 3);
+	animation: glisse 7s infinite;
+	
+}
+.slider{
+	width: 70%;
+	height: auto;
+	overflow: hidden;
+	margin-top: 6%;
+	margin-left: 20%;
+	margin-right: 20%;
+	
+	
+}
+@keyframes glisse {
+	0% {
+		transform: translateX(0);
+	}
+	10% {
+		transform: translateX(0);
+	}
+	33% {
+		transform: translateX(-1800px);
+	}
+	43% {
+		transform: translateX(-1800px);
+	}
+	66% {
+		transform: translateX(-3600px);
+	}
+	76% {
+		transform: translateX(-3600px);
+	}
+	100% {
+		transform: translateX(0);
+	}
+	
+}
+.imageslide{
+	border-radius: 10px;
+}
+.fondmenu{
+	background-color: white;
+	background-position: center;
+}
+
+/*bas du site*/
+#bas{
+	background-color:rgba(26, 71, 196, 0.678);
+	border-radius: 9px;
+	padding: 20px;
+	text-align: center;
+	margin-top: 6%;
+}
+.contenubas{
+	font-family: "police/MADE\ Tommy\ Soft\ Bold\ PERSONAL\ USE.otf";
+	color: black;
+	font-size: 20px;
+	border-radius: 7px;
+	padding: 15px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.contenubas:hover{
+	color:rgb(71, 9, 9);
+	text-decoration:none;
+}
